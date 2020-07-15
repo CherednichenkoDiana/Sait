@@ -1,0 +1,141 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("Image/fon.jpg");
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 200;
+    color: #2e353d;
+    align-items: flex-end;
+}
+
+textarea.com{
+    width: 500px;
+}
+
+a{
+    font-size: 20px;
+    text-align: center;
+    color: #303223;
+    border-color: #6b7876;
+    text-decoration: none;
+    padding: 2.5rem 3rem;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #d5d4d4;
+}
+
+img{
+    width: 500px;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+p.l{
+    width: 300px;
+    text-align: center;
+}
+
+main.img p{
+    width: 550px;
+    text-align: center;
+}
+
+p.con{
+    width: 300px;
+}
+
+p.n {
+    font-size: 10px;
+    background-color: rgba(223, 227, 213, 0.43);
+}
+
+
+main p{
+    width: 700px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #242424;
+    line-height: 36px;
+}
+
+main.img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+main.img img{
+    width: 500px;
+}
+
+input.text{
+    width: 500px;
+    padding: 10px;
+    height: 200px;
+    border-radius: 1em 1em;
+}
+
+textarea{
+    border-radius: 1em 1em;
+    overflow: hidden;
+    height: 50px;
+    width: 300px;
+}
+
+input.but{
+    width: 200px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #242424;
+    border-radius: 1em/1em;
+    background: #dee3e2;
+}
+
+input.but:hover{
+    cursor: pointer;
+}
+
+main pre{
+    font-size: 24px;
+    font-weight: 100;
+    color: #242424;
+    line-height: 36px;
+}
+
+menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+menu td {
+    text-align: center;
+    width: 5cm;
+    height: 1cm;
+    background-color: rgba(150, 174, 105, 0.69);
+    color: #48493d;
+    border-color: #6b7876;
+}
+
+menu td:hover {
+    background-color: rgba(46, 36, 30, 0.9);
+}
+
